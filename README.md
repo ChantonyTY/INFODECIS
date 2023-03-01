@@ -15,3 +15,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ChantonyTY/INFODECIS.git
 git push -u origin main
+
+# TOKEN GIT
+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
