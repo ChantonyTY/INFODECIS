@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/chantony/Documents/Cours/S10/ID/ExempleSparkETL/src/main/scala/SimpleApp.scala:108:7: df is already defined as value df[0m
+[0m[[0m[31merror[0m] [0m[0m		val df = spark.createDataFrame([0m
+[0m[[0m[31merror[0m] [0m[0m		    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chantony/Documents/Cours/S10/ID/ExempleSparkETL/src/main/scala/SimpleApp.scala:109:35: not found: value simpleData[0m
+[0m[[0m[31merror[0m] [0m[0m			spark.sparkContext.parallelize(simpleData), simpleSchema)[0m
+[0m[[0m[31merror[0m] [0m[0m			                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chantony/Documents/Cours/S10/ID/ExempleSparkETL/src/main/scala/SimpleApp.scala:109:48: not found: value simpleSchema[0m
+[0m[[0m[31merror[0m] [0m[0m			spark.sparkContext.parallelize(simpleData), simpleSchema)[0m
+[0m[[0m[31merror[0m] [0m[0m			                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
